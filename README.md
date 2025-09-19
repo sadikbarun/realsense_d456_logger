@@ -14,8 +14,8 @@ Make sure required dependencies are installed (librealsense2, OpenCV,
 CMake, etc.).
 
 ``` bash
-git clone https://github.com/<username>/realsense-logger.git
-cd realsense-logger
+git clone https://github.com/sadikbarun/realsense_d456_logger.git
+cd realsense_d456_logger
 mkdir -p build
 cd build
 cmake ..
