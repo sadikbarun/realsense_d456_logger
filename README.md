@@ -47,7 +47,7 @@ Run the logger with:
 The logger generates the following structure in the output directory:
 
 -   `color/frame_XXXX.jpg` → RGB frames
--   `imu_pairs.csv` → IMU logs (gyro + interpolated accel)
+-   `imu_pairs.csv` → IMU logs (gyro + accel)
 -   `events.csv` → Frame timestamps, file names, and IMU matching status
 
 ------------------------------------------------------------------------
