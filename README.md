@@ -15,6 +15,7 @@ CMake, etc.).
 
 ``` bash
 git clone https://github.com/sadikbarun/realsense_d456_logger.git
+
 cd realsense_d456_logger
 mkdir -p build
 cd build
@@ -46,8 +47,6 @@ Run the logger with:
 The logger generates the following structure in the output directory:
 
 -   `color/frame_XXXX.jpg` → RGB frames
--   `left/frameL_XXXX.jpg`, `right/frameR_XXXX.jpg` → IR frames
-    (optional)
 -   `imu_pairs.csv` → IMU logs (gyro + interpolated accel)
 -   `events.csv` → Frame timestamps, file names, and IMU matching status
 
