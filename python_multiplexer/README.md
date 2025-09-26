@@ -76,7 +76,7 @@ Inside `realsense_D456.py`:
 
 ---
 
-## 🖧 Architecture
+## Architecture
 
 ```
 +-------------------+         +-------------------+
